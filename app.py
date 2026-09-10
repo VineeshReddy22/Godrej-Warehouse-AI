@@ -69,17 +69,17 @@ p,div,span,button,input{font-family:"Inter",sans-serif}
 .topbar{display:flex;justify-content:space-between;align-items:center;border-bottom:1px solid var(--line);padding:4px 0 18px;margin-bottom:24px}
 .brand{display:flex;align-items:center;gap:12px}
 .brand-mark{width:38px;height:38px;border:1px solid var(--accent);display:flex;align-items:center;justify-content:center;color:var(--accent);font-weight:800;font-size:20px}
-.brand-name{font-family:"Space Grotesk";font-weight:700;letter-spacing:.08em;font-size:.88rem}
-.brand-sub{color:var(--muted);font-size:.73rem;margin-top:2px}
-.status{border:1px solid #2b5149;border-radius:999px;padding:7px 12px;color:var(--accent);font-family:"IBM Plex Mono";font-size:.68rem;letter-spacing:.04em}
-.status-demo{border:1px solid #ff984d;border-radius:999px;padding:7px 12px;color:#ff984d;font-family:"IBM Plex Mono";font-size:.68rem;letter-spacing:.04em}
+.brand-name{font-family:"Space Grotesk";font-weight:700;letter-spacing:.08em;font-size:1rem}
+.brand-sub{color:var(--muted);font-size:.86rem;margin-top:3px}
+.status{border:1px solid #2b5149;border-radius:999px;padding:8px 13px;color:var(--accent);font-family:"IBM Plex Mono";font-size:.82rem;letter-spacing:.04em}
+.status-demo{border:1px solid #ff984d;border-radius:999px;padding:8px 13px;color:#ff984d;font-family:"IBM Plex Mono";font-size:.82rem;letter-spacing:.04em}
 .hero{display:grid;grid-template-columns:1.15fr .85fr;gap:30px;align-items:center;padding:28px 0 34px}
-.eyebrow{font-family:"IBM Plex Mono";font-size:.67rem;letter-spacing:.16em;color:var(--accent);font-weight:600}
-.hero h1{font-size:3.25rem;line-height:1.02;margin:.6rem 0 1rem;letter-spacing:-.04em}
+.eyebrow{font-family:"IBM Plex Mono";font-size:.82rem;letter-spacing:.12em;color:var(--accent);font-weight:600}
+.hero h1{font-size:2.5rem;line-height:1.08;margin:.7rem 0 1rem;letter-spacing:-.02em}
 .hero h1 span{color:var(--accent)}
 .hero p{max-width:760px;color:var(--muted);font-size:1rem;line-height:1.7}
 .meta-row{display:flex;gap:9px;flex-wrap:wrap;margin-top:22px}
-.meta{border:1px solid var(--line);background:rgba(12,26,32,.7);padding:8px 11px;border-radius:999px;color:#b8c8cc;font-size:.72rem}
+.meta{border:1px solid var(--line);background:rgba(12,26,32,.7);padding:9px 12px;border-radius:999px;color:#b8c8cc;font-size:.86rem}
 .orbit{min-height:260px;position:relative;display:flex;align-items:center;justify-content:center}
 .orbit:before,.orbit:after{content:"";position:absolute;border:1px solid #1f3d40;border-radius:50%}
 .orbit:before{width:230px;height:230px}
@@ -90,58 +90,58 @@ p,div,span,button,input{font-family:"Inter",sans-serif}
 .node{position:absolute;border:1px solid #2b4d50;background:#08161a;padding:7px 10px;color:#b9ccce;font-family:"IBM Plex Mono";font-size:.58rem;letter-spacing:.06em}
 .n1{top:8px;left:12%}.n2{right:5%;top:43%}.n3{left:13%;bottom:9%}
 .section-head{display:flex;justify-content:space-between;gap:20px;align-items:end;margin:18px 0 12px}
-.kicker{font-family:"IBM Plex Mono";font-size:.63rem;letter-spacing:.16em;color:var(--accent);font-weight:600}
-.section-head h2{font-size:1.55rem;margin:.3rem 0 0}
-.section-head p{max-width:550px;color:var(--muted);font-size:.78rem;line-height:1.6;margin:0}
+.kicker{font-family:"IBM Plex Mono";font-size:.82rem;letter-spacing:.12em;color:var(--accent);font-weight:600}
+.section-head h2{font-size:1.65rem;line-height:1.2;margin:.35rem 0 0}
+.section-head p{max-width:650px;color:var(--muted);font-size:.96rem;line-height:1.55;margin:0}
 .panel{background:linear-gradient(145deg,rgba(12,26,32,.97),rgba(8,18,22,.98));border:1px solid var(--line);border-radius:17px;padding:17px;box-shadow:0 12px 35px rgba(0,0,0,.13)}
 .panel-head{display:flex;justify-content:space-between;align-items:center;margin-bottom:13px}
-.panel-kicker{font-family:"IBM Plex Mono";font-size:.6rem;color:var(--accent);letter-spacing:.13em}
-.panel h3{font-size:1.03rem;margin:.25rem 0 0}
-.count{border:1px solid var(--line);border-radius:999px;padding:5px 9px;color:#a8babe;font-size:.66rem;font-family:"IBM Plex Mono"}
+.panel-kicker{font-family:"IBM Plex Mono";font-size:.8rem;color:var(--accent);letter-spacing:.1em}
+.panel h3{font-size:1.2rem;line-height:1.25;margin:.3rem 0 0}
+.count{border:1px solid var(--line);border-radius:999px;padding:6px 10px;color:#a8babe;font-size:.84rem;font-family:"IBM Plex Mono"}
 .metric-grid{display:grid;grid-template-columns:repeat(6,1fr);gap:10px}
 .metric{min-height:108px}
 .executive-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:10px}
 .executive-metric{min-height:104px}
 .executive-metric.index{border-color:#2f7868;background:linear-gradient(145deg,rgba(19,54,51,.98),rgba(8,23,25,.98))}
 .executive-metric.index .metric-value{color:var(--accent)}
-.metric-note{color:#71878e;font-size:.66rem;line-height:1.45;margin-top:5px}
+.metric-note{color:#9ab0b5;font-size:.86rem;line-height:1.5;margin-top:6px}
 .kpi-section{margin:22px 0 8px}
 .kpi-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:10px}
 .kpi-card{min-height:116px}
 .kpi-card.priority{grid-column:span 2}
 .kpi-card .metric-value{font-size:1.55rem}
-.kpi-help{color:#71878e;font-size:.64rem;line-height:1.45;margin-top:6px}
+.kpi-help{color:#9ab0b5;font-size:.84rem;line-height:1.5;margin-top:7px}
 .priority-list{display:flex;gap:7px;flex-wrap:wrap;margin-top:9px}
-.priority-item{border:1px solid var(--line);border-radius:999px;padding:5px 8px;font-family:"IBM Plex Mono";font-size:.61rem}
+.priority-item{border:1px solid var(--line);border-radius:999px;padding:6px 9px;font-family:"IBM Plex Mono";font-size:.84rem}
 .distribution-row{display:flex;align-items:center;gap:10px;margin:11px 0}
-.distribution-label{width:76px;font-family:"IBM Plex Mono";font-size:.65rem;color:#b8c8cc}
+.distribution-label{width:90px;font-family:"IBM Plex Mono";font-size:.84rem;color:#b8c8cc}
 .distribution-track{height:8px;flex:1;background:#13272d;border-radius:999px;overflow:hidden}
 .distribution-fill{height:100%;border-radius:999px}
-.distribution-count{width:32px;text-align:right;font-family:"IBM Plex Mono";font-size:.68rem;color:var(--text)}
-.coverage-row{display:flex;justify-content:space-between;align-items:center;border-bottom:1px solid #173039;padding:11px 0;color:#b8c8cc;font-size:.78rem}
+.distribution-count{width:38px;text-align:right;font-family:"IBM Plex Mono";font-size:.86rem;color:var(--text)}
+.coverage-row{display:flex;justify-content:space-between;align-items:center;border-bottom:1px solid #173039;padding:12px 0;color:#b8c8cc;font-size:.94rem}
 .coverage-row:last-child{border-bottom:0}
 .coverage-value{font-family:"IBM Plex Mono";color:var(--accent);font-weight:700}
 .top-risk{border:1px solid var(--line);border-radius:12px;background:#09151a;padding:12px;margin:8px 0}
 .top-risk-head{display:flex;justify-content:space-between;gap:10px;align-items:center}
-.top-risk-meta{color:var(--muted);font-size:.68rem;margin-top:6px}
+.top-risk-meta{color:var(--muted);font-size:.88rem;line-height:1.45;margin-top:7px}
 .system-status{border:1px solid #23434a;border-radius:14px;background:rgba(9,22,27,.86);padding:13px 15px;margin:14px 0 20px}
 .system-status-head{display:flex;justify-content:space-between;align-items:baseline;gap:12px;margin-bottom:10px}
-.system-status-title{font-family:"IBM Plex Mono";font-size:.64rem;letter-spacing:.14em;color:var(--accent);font-weight:700}
-.system-status-note{color:var(--muted);font-size:.68rem}
+.system-status-title{font-family:"IBM Plex Mono";font-size:.82rem;letter-spacing:.12em;color:var(--accent);font-weight:700}
+.system-status-note{color:var(--muted);font-size:.86rem}
 .system-status-grid{display:grid;grid-template-columns:repeat(5,1fr);gap:8px}
 .system-status-item{border-left:2px solid #315258;padding:8px 9px;background:#08161a;min-height:62px}
 .system-status-item.ready{border-left-color:#45d6a8}.system-status-item.warning{border-left-color:#ff984d}.system-status-item.unknown{border-left-color:#71878e}
-.system-status-name{font-family:"IBM Plex Mono";font-size:.59rem;color:#b8c8cc;letter-spacing:.06em}
-.system-status-state{font-weight:700;font-size:.72rem;margin-top:4px}.system-status-detail{color:#71878e;font-size:.61rem;line-height:1.35;margin-top:3px}
+.system-status-name{font-family:"IBM Plex Mono";font-size:.82rem;color:#b8c8cc;letter-spacing:.04em}
+.system-status-state{font-weight:700;font-size:.9rem;margin-top:5px}.system-status-detail{color:#9ab0b5;font-size:.8rem;line-height:1.4;margin-top:4px}
 .processing-grid{display:grid;grid-template-columns:repeat(5,1fr);gap:10px}
 .explorer-toolbar{border:1px solid var(--line);border-radius:14px;background:#09151a;padding:14px;margin:12px 0 16px}
 .explorer-summary{display:flex;align-items:center;gap:10px;flex-wrap:wrap;border-bottom:1px solid #173039;padding-bottom:10px}
 .explorer-fields{display:grid;grid-template-columns:repeat(2,1fr);gap:10px;margin-top:12px}
 .explorer-field{border-left:2px solid #21424a;padding:7px 10px;background:#09161a;min-height:48px}
-.explorer-field-label{font-family:"IBM Plex Mono";font-size:.58rem;letter-spacing:.08em;color:var(--muted);text-transform:uppercase}
-.explorer-field-value{font-size:.78rem;color:var(--text);line-height:1.45;margin-top:4px}
+.explorer-field-label{font-family:"IBM Plex Mono";font-size:.8rem;letter-spacing:.06em;color:var(--muted);text-transform:uppercase}
+.explorer-field-value{font-size:.96rem;color:var(--text);line-height:1.5;margin-top:5px}
 .explorer-evidence{border-top:1px solid #173039;margin-top:14px;padding-top:12px}
-.explorer-evidence-title{font-family:"IBM Plex Mono";font-size:.62rem;letter-spacing:.1em;color:var(--accent);margin-bottom:9px}
+.explorer-evidence-title{font-family:"IBM Plex Mono";font-size:.82rem;letter-spacing:.08em;color:var(--accent);margin-bottom:10px}
 .merged-observation{border:1px solid #1d3940;border-radius:9px;padding:9px;margin:7px 0;background:#081317}
 .replay-panel{border:1px solid #2a5453;background:linear-gradient(145deg,rgba(10,30,32,.98),rgba(8,18,22,.98));border-radius:16px;padding:17px;margin:14px 0}
 .replay-meta{display:flex;gap:8px;flex-wrap:wrap;align-items:center;margin:8px 0 14px}
@@ -151,37 +151,41 @@ p,div,span,button,input{font-family:"Inter",sans-serif}
 .timeline-step:last-child:after{display:none}
 .timeline-dot{position:relative;z-index:1;width:14px;height:14px;border-radius:50%;margin:9px auto 8px;border:2px solid #6d8e90;background:#081317}
 .timeline-dot.incident{border-color:#ff984d;background:#ff984d;box-shadow:0 0 0 5px rgba(255,152,77,.12)}
-.timeline-time{font-family:"IBM Plex Mono";font-size:.68rem;color:#d3e2df}
-.timeline-label{font-family:"IBM Plex Mono";font-size:.55rem;color:var(--muted);letter-spacing:.08em;margin-top:3px}
-.replay-copy{color:#b8c8cc;font-size:.78rem;line-height:1.55}
+.timeline-time{font-family:"IBM Plex Mono";font-size:.86rem;color:#d3e2df}
+.timeline-label{font-family:"IBM Plex Mono";font-size:.8rem;color:var(--muted);letter-spacing:.06em;margin-top:4px}
+.replay-copy{color:#b8c8cc;font-size:.98rem;line-height:1.6}
 .comparison-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin:14px 0}
-.comparison-label{font-family:"IBM Plex Mono";font-size:.62rem;letter-spacing:.1em;color:var(--accent);margin-bottom:6px}
-.comparison-caption{color:var(--muted);font-size:.68rem;line-height:1.4;margin-top:7px}
-.metric-label{font-family:"IBM Plex Mono";font-size:.6rem;color:var(--muted);letter-spacing:.1em}
-.metric-value{font-family:"Space Grotesk";font-size:1.75rem;font-weight:700;margin-top:7px}
-.metric-sub{color:#71878e;font-size:.67rem;margin-top:4px}
+.comparison-label{font-family:"IBM Plex Mono";font-size:.88rem;letter-spacing:.08em;color:var(--accent);font-weight:700;margin-bottom:8px}
+.comparison-caption{color:var(--muted);font-size:.86rem;line-height:1.5;margin-top:8px}
+.metric-label{font-family:"IBM Plex Mono";font-size:.8rem;color:var(--muted);letter-spacing:.08em}
+.metric-value{font-family:"Space Grotesk";font-size:1.9rem;font-weight:700;margin-top:8px}
+.metric-sub{color:#9ab0b5;font-size:.84rem;margin-top:5px}
 .riskline{display:flex;align-items:center;gap:9px;flex-wrap:wrap}
-.pill{font-family:"IBM Plex Mono";font-size:.62rem;font-weight:700;border-radius:999px;padding:5px 8px;border:1px solid currentColor}
+.pill{font-family:"IBM Plex Mono";font-size:.86rem;font-weight:700;border-radius:999px;padding:6px 10px;border:1px solid currentColor}
 .incident{border:1px solid var(--line);background:#09151a;border-radius:13px;padding:13px;margin:8px 0}
 .incident:hover{border-color:#31555a}
 .alert-card{border:1px solid #ff984d;background:linear-gradient(145deg,rgba(40,20,10,.85),rgba(20,10,5,.9));border-radius:15px;padding:16px;margin:16px 0}
-.alert-title{font-family:"IBM Plex Mono";color:#ff984d;font-size:.65rem;letter-spacing:.14em;font-weight:700}
-.small{color:var(--muted);font-size:.68rem}
+.alert-title{font-family:"IBM Plex Mono";color:#ff984d;font-size:.84rem;letter-spacing:.12em;font-weight:700}
+.small{color:var(--muted);font-size:.86rem;line-height:1.45}
 .beh-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:10px}
 .beh{border:1px solid var(--line);border-radius:12px;padding:12px;background:#09151a}
-.beh strong{font-size:.82rem}.beh .bar{height:4px;background:#13272d;border-radius:999px;margin-top:9px;overflow:hidden}.beh .fill{height:100%;background:var(--accent)}
+.beh strong{font-size:1.08rem;line-height:1.3}.beh .bar{height:5px;background:#13272d;border-radius:999px;margin-top:10px;overflow:hidden}.beh .fill{height:100%;background:var(--accent)}
 .guidance{border-left:2px solid var(--accent);background:#09161a;border-radius:0 11px 11px 0;padding:12px 14px;margin:8px 0}
 .copilot{border:1px solid #29534d;background:linear-gradient(135deg,#0c1b20,#081519);border-radius:16px;padding:17px}
-.copilot-title{font-family:"IBM Plex Mono";color:var(--accent);font-size:.62rem;letter-spacing:.12em}
+.copilot-title{font-family:"IBM Plex Mono";color:var(--accent);font-size:.82rem;letter-spacing:.1em}
 .copilot-answer{border:1px solid #23443f;background:#09181a;border-radius:12px;padding:14px;margin-top:12px}
 .evidence-card{border:1px solid var(--line);border-radius:13px;padding:11px;background:#081317;margin-bottom:12px}
 .evidence-card img{border-radius:9px}
-.footer{border-top:1px solid var(--line);margin-top:30px;padding:20px 0;color:#73878d;font-size:.65rem}
+.footer{border-top:1px solid var(--line);margin-top:30px;padding:20px 0;color:#8da3a8;font-size:.82rem;line-height:1.5}
 div[data-testid="stFileUploader"]{border:1px dashed #31545a;border-radius:13px;padding:3px;background:#081418}
-.stButton>button{border-radius:10px!important;border:1px solid #29474c!important;background:#0c1c21!important;color:#e7f4f1!important;font-weight:700!important}
+.stButton>button{border-radius:10px!important;border:1px solid #29474c!important;background:#0c1c21!important;color:#e7f4f1!important;font-weight:700!important;font-size:.94rem!important;min-height:2.55rem!important;padding:7px 14px!important}
 .stButton>button:hover{border-color:var(--accent)!important;color:var(--accent)!important}
 .stButton>button[kind="primary"]{background:var(--accent)!important;color:#03100c!important;border-color:var(--accent)!important}
-.stTabs [data-baseweb="tab"]{font-family:"IBM Plex Mono";font-size:.68rem}
+.stTabs [data-baseweb="tab"]{font-family:"IBM Plex Mono";font-size:.9rem;padding:10px 14px}
+.stSelectbox label,.stRadio label{font-size:.94rem!important;font-weight:600!important}
+[data-baseweb="select"] *{font-size:.94rem!important}
+.stCaption, [data-testid="stCaptionContainer"]{font-size:.86rem!important;line-height:1.45!important}
+textarea,input{font-size:.94rem!important}
 .stProgress>div>div{background:var(--accent)!important}
 [data-testid="stMetricValue"]{color:var(--text)}
 @media(max-width:1000px){.hero,.workspace{grid-template-columns:1fr}.metric-grid{grid-template-columns:repeat(2,1fr)}}
@@ -664,9 +668,9 @@ if incidents or meta:
   <div style="margin-top:6px;font-size:1.1rem;font-weight:700">
     {esc(latest_severe.get('behaviour'))} · {esc(latest_severe.get('risk'))} · {esc(latest_severe.get('risk_score'))}/100
   </div>
-    <div style="margin-top:6px;font-size:.82rem"><b>When:</b> {latest_severe.get('start_timestamp',0):.2f}s → {latest_severe.get('end_timestamp',0):.2f}s · <b>Duration:</b> {latest_severe.get('duration',0):.2f}s · <b>Confidence:</b> {latest_severe.get('confidence',0):.0%}</div>
-  <div style="margin-top:8px;font-size:.82rem"><b>Observed:</b> {esc(latest_severe.get('explanation'))}</div>
-  <div style="margin-top:6px;font-size:.8rem;color:#75e4c3"><b>Action:</b> {esc(latest_severe.get('recommended_action'))}</div>
+    <div style="margin-top:7px;font-size:.94rem"><b>When:</b> {latest_severe.get('start_timestamp',0):.2f}s → {latest_severe.get('end_timestamp',0):.2f}s · <b>Duration:</b> {latest_severe.get('duration',0):.2f}s · <b>Confidence:</b> {latest_severe.get('confidence',0):.0%}</div>
+    <div style="margin-top:9px;font-size:.96rem;line-height:1.5"><b>Observed:</b> {esc(latest_severe.get('explanation'))}</div>
+    <div style="margin-top:7px;font-size:.94rem;line-height:1.5;color:#75e4c3"><b>Action:</b> {esc(latest_severe.get('recommended_action'))}</div>
 </div>
 """,
                 unsafe_allow_html=True,
@@ -1010,22 +1014,37 @@ if incidents or meta:
     with tabs[1]:
         st.markdown(
             '<div class="section-head"><div><div class="kicker">EVIDENCE REVIEW</div>'
-            '<h2>Evidence Review</h2></div><p>Arrange only the evidence needed for this supervisor review.</p></div>',
+            '<h2>Evidence Review</h2></div><p>Highest-priority event episodes requiring supervisor attention.</p></div>',
             unsafe_allow_html=True,
         )
-        selected_id = st.session_state.get("selected_episode_id")
-        selected_event = next((event for event in incidents if event.get("episode_id") == selected_id), None)
-        if selected_event is None and incidents:
-            selected_event = incidents[0]
-        if selected_event is None:
-            st.info("Select an event episode in Event Explorer to review evidence.")
+        risk_rank = {"CRITICAL": 4, "HIGH": 3, "MEDIUM": 2, "LOW": 1}
+        priority_events = sorted(
+            incidents,
+            key=lambda event: (
+                risk_rank.get(event.get("risk"), 0),
+                float(event.get("risk_score", 0) or 0),
+                -(float(event.get("start_timestamp")) if event.get("start_timestamp") is not None else float("inf")),
+            ),
+            reverse=True,
+        )[:3]
+        if not priority_events:
+            st.info("No priority event episodes are available for evidence review.")
         else:
-            items = evidence_workspace_items(selected_event, meta.get("duration_s"))
-            item_by_id = {item["item_id"]: item for item in items}
-            board_key = f"evidence_board_{selected_event.get('episode_id')}"
-            default_board = ["before", "incident", "after"]
-            board_ids = st.session_state.setdefault(board_key, [item_id for item_id in default_board if item_id in item_by_id])
-            board_ids[:] = [item_id for item_id in board_ids if item_id in item_by_id]
+            def priority_label(event):
+                marker = {"CRITICAL": "🔴", "HIGH": "🟠", "MEDIUM": "🟡", "LOW": "🟢"}.get(event.get("risk"), "○")
+                timestamp = event.get("start_timestamp", event.get("timestamp"))
+                timestamp_label = format_timestamp(timestamp).replace("s", "")
+                return f"{marker} {event.get('risk', 'UNKNOWN')} · {event.get('behaviour', 'Event')} · {timestamp_label} · {event.get('episode_id', 'EP-???')}"
+
+            priority_options = [priority_label(event) for event in priority_events]
+            selected_priority = st.selectbox("Select Priority Event Episode", priority_options, index=0, key="priority_event_episode")
+            selected_event = priority_events[priority_options.index(selected_priority)]
+            selected_records = evidence_records(selected_event)
+            selected_timestamp = selected_event.get("start_timestamp", selected_event.get("timestamp"))
+            comparison = context_timestamps(selected_timestamp, meta.get("duration_s"))
+            incident_record = nearest_evidence(selected_records, comparison["incident"])
+            before_record = nearest_evidence(selected_records, comparison["before"])
+            after_record = nearest_evidence(selected_records, comparison["after"])
 
             start = selected_event.get("start_timestamp")
             end = selected_event.get("end_timestamp")
@@ -1037,85 +1056,75 @@ if incidents or meta:
                 unsafe_allow_html=True,
             )
 
-            st.markdown('<div class="section-head"><div><div class="kicker">PRIMARY REVIEW AREA</div><h2>Review Board</h2></div><p>Use the controls on each card to reorder or remove temporary board items. Source evidence is unchanged.</p></div>', unsafe_allow_html=True)
-            if not board_ids:
-                st.info("Add evidence from the Evidence Library below.")
-            for position, item_id in enumerate(list(board_ids)):
-                item = item_by_id[item_id]
-                control_cols = st.columns([1, 1, 1, 7], gap="small")
-                with control_cols[0]:
-                    if st.button("↑", key=f"up_{board_key}_{item_id}", disabled=position == 0, help="Move evidence up"):
-                        board_ids[position - 1], board_ids[position] = board_ids[position], board_ids[position - 1]
-                        st.rerun()
-                with control_cols[1]:
-                    if st.button("↓", key=f"down_{board_key}_{item_id}", disabled=position == len(board_ids) - 1, help="Move evidence down"):
-                        board_ids[position + 1], board_ids[position] = board_ids[position], board_ids[position + 1]
-                        st.rerun()
-                with control_cols[2]:
-                    if st.button("×", key=f"remove_{board_key}_{item_id}", help="Remove from temporary board"):
-                        board_ids.remove(item_id)
-                        st.rerun()
-                with control_cols[3]:
-                    with st.expander(f"{position + 1}. {item['label']} · {format_timestamp(item.get('timestamp'))}", expanded=item_id == "incident"):
-                        st.caption(f"{item['description']} · {item['status']}")
-                        if item_id == "source-video":
-                            if st.session_state.get("video_bytes") and item.get("timestamp") is not None:
-                                st.video(st.session_state["video_bytes"], format="video/mp4", start_time=max(0, int(item["timestamp"])))
-                                st.caption(f"Episode range: {time_range}")
-                            else:
-                                st.info("No source video available.")
-                        elif item.get("path") and Path(item["path"]).exists():
-                            st.image(item["path"], caption=f"{item['label']} · {format_timestamp(item.get('timestamp'))}", use_container_width=True)
-                        else:
-                            st.info("No frame available for this evidence item.")
+            st.markdown('<div class="section-head"><div><div class="kicker">SOURCE VIDEO</div><h2>Review the analyzed footage</h2></div><p>Jump to the selected episode timestamp. The source video is reused from the current analysis session.</p></div>', unsafe_allow_html=True)
+            source_video = st.session_state.get("video_bytes")
+            source_video_path = st.session_state.get("video_path")
+            if source_video is None and source_video_path and Path(source_video_path).exists():
+                source_video = source_video_path
+            if source_video is not None:
+                source_name = st.session_state.get("video_name") or source_video_path or "analyzed source video"
+                source_suffix = Path(str(source_name)).suffix.lower().lstrip(".") or "mp4"
+                st.video(source_video, format=f"video/{source_suffix}", start_time=max(0, int(selected_timestamp or 0)))
+                st.caption(f"Incident timestamp: {format_timestamp(selected_timestamp)} · Episode range: {time_range} · Use the player controls to review the surrounding context.")
+                if is_demo:
+                    st.warning("DEMO MODE — SYNTHETIC EVIDENCE. The displayed analysis is synthetic.")
+            else:
+                st.warning("Source video unavailable. Available evidence frames are shown below.")
 
-            st.markdown('<div class="section-head"><div><div class="kicker">EVIDENCE LIBRARY</div><h2>Available evidence</h2></div><p>Compact evidence cards stay here until added to the Review Board.</p></div>', unsafe_allow_html=True)
-            library_items = [item for item in items if item["item_id"] not in board_ids]
-            if not library_items:
-                st.caption("No additional evidence frames. The board contains the smart default context.")
-            library_cols = st.columns(min(3, max(1, len(library_items))), gap="small")
-            for index, item in enumerate(library_items):
-                with library_cols[index % len(library_cols)]:
-                    st.markdown(f'<div class="evidence-card"><b>{esc(item["category"])}</b><br><span class="small">{format_timestamp(item.get("timestamp"))} · {esc(item["label"])}</span></div>', unsafe_allow_html=True)
-                    if item.get("path") and Path(item["path"]).exists():
-                        st.image(item["path"], caption="", use_container_width=True)
-                    elif item["category"] == "VIDEO":
-                        st.caption("Source video")
+            st.markdown('<div class="section-head"><div><div class="kicker">INCIDENT CONTEXT</div><h2>Before → Incident → After</h2></div><p>Evidence frames provide context around the selected priority episode.</p></div>', unsafe_allow_html=True)
+            evidence_columns = st.columns(3, gap="small")
+            for column, label, record, target_time, description in zip(
+                evidence_columns,
+                ["BEFORE", "INCIDENT", "AFTER"],
+                [before_record, incident_record, after_record],
+                [comparison["before"], comparison["incident"], comparison["after"]],
+                ["Context before the event", "Primary evidence of the detected behaviour", "Post-event context; not proof of safety or damage"],
+            ):
+                with column:
+                    st.markdown(f'<div class="comparison-label">{label}</div>', unsafe_allow_html=True)
+                    record_path = record.get("path") if record else None
+                    evidence_available = bool(record_path and Path(record_path).exists())
+                    frame_time = record.get("timestamp") if record and record.get("timestamp") is not None else target_time
+                    if evidence_available:
+                        st.image(record_path, caption=f"{format_timestamp(frame_time)} · {description}", use_container_width=True)
+                    elif st.session_state.get("video_bytes") and target_time is not None:
+                        st.video(st.session_state["video_bytes"], format="video/mp4", start_time=max(0, int(target_time)))
+                        st.caption(f"{format_timestamp(target_time)} · Source video context")
                     else:
-                        st.caption("No frame available")
-                    if st.button("Add to Review Board", key=f"add_{board_key}_{item['item_id']}"):
-                        board_ids.append(item["item_id"])
-                        st.rerun()
+                        st.info(f"No {label.lower()} frame available")
+                    if record and target_time is not None and record.get("timestamp") != target_time:
+                        st.caption("Nearest available evidence")
+
+            st.markdown(
+                f'<div class="explorer-fields">'
+                f'<div class="explorer-field"><div class="explorer-field-label">Behaviour</div><div class="explorer-field-value">{esc(selected_event.get("behaviour"))}</div></div>'
+                f'<div class="explorer-field"><div class="explorer-field-label">Risk level</div><div class="explorer-field-value">{esc(selected_event.get("risk"))}</div></div>'
+                f'<div class="explorer-field"><div class="explorer-field-label">Risk score</div><div class="explorer-field-value">{esc(selected_event.get("risk_score"))}/100</div></div>'
+                f'<div class="explorer-field"><div class="explorer-field-label">AI confidence</div><div class="explorer-field-value">{selected_event.get("confidence", 0):.0%}</div></div>'
+                f'<div class="explorer-field"><div class="explorer-field-label">Timestamp</div><div class="explorer-field-value">{esc(time_range)}</div></div>'
+                f'<div class="explorer-field"><div class="explorer-field-label">Track ID</div><div class="explorer-field-value">{esc(selected_event.get("track_id", "Not available"))}</div></div>'
+                f'</div>',
+                unsafe_allow_html=True,
+            )
+
+            explanation_cols = st.columns(2, gap="small")
+            for column, heading, field in zip(explanation_cols, ["WHAT AI OBSERVED", "WHY IT MATTERS"], ["explanation", "why_risky"]):
+                with column:
+                    st.markdown(f'<div class="guidance"><b>{heading}</b><br>{esc(optional_value(selected_event.get(field)))}</div>', unsafe_allow_html=True)
+            st.markdown(f'<div class="guidance"><b>RECOMMENDED ACTION</b><br>{esc(optional_value(selected_event.get("recommended_action")))}</div>', unsafe_allow_html=True)
 
             if is_demo:
                 st.warning("DEMO MODE — SYNTHETIC EVIDENCE")
 
-            explanation_cols = st.columns(3, gap="small")
-            for column, heading, field in zip(explanation_cols, ["WHAT HAPPENED?", "WHY IT MATTERS", "RECOMMENDED ACTION"], ["explanation", "why_risky", "recommended_action"]):
-                with column:
-                    st.markdown(f'<div class="guidance"><b>{heading}</b><br>{esc(optional_value(selected_event.get(field)))}</div>', unsafe_allow_html=True)
-
-            with st.expander("TECHNICAL OBSERVATIONS", expanded=False):
-                st.caption(f"{selected_event.get('observation_count', 0)} observations · original incident IDs: " + ", ".join(f"#{value}" for value in selected_event.get("original_incident_ids", [])))
-                technical_rows = []
-                for source in selected_event.get("incidents", []):
-                    for observation in source.get("merged_incidents") or [source]:
-                        technical_rows.append({
-                            "timestamp": observation.get("timestamp"),
-                            "track_id": observation.get("track_id"),
-                            "related_track_id": observation.get("related_track_id"),
-                            "source_frame": observation.get("source_frame"),
-                            "incident_id": observation.get("id"),
-                        })
-                st.json(technical_rows)
-
             st.markdown("### SUPERVISOR REVIEW")
             review_key = f"episode_review_{selected_event.get('episode_id')}"
-            review_options = ["Needs Review", "Confirmed", "False Positive"]
-            review_status = st.selectbox("Human assessment", review_options, index=review_options.index(st.session_state.get(review_key, "Needs Review")), key=f"evidence_review_{selected_event.get('episode_id')}")
-            st.session_state[review_key] = review_status
+            review_options = ["Confirm Risk", "False Positive", "Needs Review"]
+            stored_review = st.session_state.get(review_key, "Needs Review")
+            display_review = "Confirm Risk" if stored_review == "Confirmed" else stored_review
+            review_status = st.radio("Supervisor review", review_options, index=review_options.index(display_review), horizontal=True, key=f"priority_review_{selected_event.get('episode_id')}")
+            st.session_state[review_key] = "Confirmed" if review_status == "Confirm Risk" else review_status
             ai_status = "Potential risk" if selected_event.get("status") == "POTENTIAL_RISK" else optional_value(selected_event.get("status"))
-            agreement = "Pending" if review_status == "Needs Review" else "Agreement" if review_status == "Confirmed" and selected_event.get("risk") in {"HIGH", "CRITICAL"} else "Disagreement"
+            agreement = "Pending" if review_status == "Needs Review" else "Agreement" if review_status == "Confirm Risk" else "Disagreement"
             st.caption(f"AI assessment: {ai_status} · Human assessment: {review_status} · {agreement}. Review feedback does not retrain the model.")
 
     with tabs[2]:
